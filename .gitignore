@@ -1,0 +1,20 @@
+# Archivos temporales de KiCad
+*.bak
+*.tmp
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Carpetas de backup y cache
+_autosave-*
+*.zip
+*.tar.gz
+
+# Archivos de simulación
+*.raw
+*.log
+
+# Archivos de configuración local
+fp-info-cache
+sym-lib-table
+fp-lib-table
