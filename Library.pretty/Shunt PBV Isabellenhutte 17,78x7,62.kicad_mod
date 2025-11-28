@@ -1,0 +1,212 @@
+(footprint "Shunt PBV Isabellenhutte 17,78x7,62"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_Shunt series, Box, pin pitch=25.4mm, 3W, length*width*height=22.2*8*8mm^3, shunt pin pitch = 14.30mm, http://www.vishay.com/docs/30217/cpsl.pdf")
+	(tags "Resistor Axial_Shunt series Box pin pitch 25.4mm 3W length 22.2mm width 8mm height 8mm shunt pin pitch 14.30mm")
+	(property "Reference" "REF**"
+		(at 12.7 -5.12 0)
+		(layer "F.SilkS")
+		(uuid "598604bf-1158-439e-bdbd-9a442bb7413e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Shunt PBV Isabellenhutte 17,78x7,62"
+		(at 12.7 5.12 0)
+		(layer "F.Fab")
+		(uuid "7039bd0d-fb7c-4361-9265-6d64e3019b07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4219b58e-196e-44d7-9172-7e658e801120")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e5ee152-7c1a-4147-ac5f-91d9413d439c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.48 -4.12)
+		(end 23.92 -4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8023876-f88e-482c-9baa-eb17a999e3ef")
+	)
+	(fp_line
+		(start 1.48 -1.74)
+		(end 1.48 -4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e61b26f-06dc-4fbc-9150-09e381fd1ffb")
+	)
+	(fp_line
+		(start 1.48 1.74)
+		(end 1.48 4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e7e2949-b310-4bcd-b7a0-5948231ce3c4")
+	)
+	(fp_line
+		(start 1.48 4.12)
+		(end 23.92 4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bf6004f-dc40-481e-ba6c-bc6dd31f2a3e")
+	)
+	(fp_line
+		(start 23.92 -4.12)
+		(end 23.92 -1.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f0b4304-4caf-44e0-a36d-08b1efae7632")
+	)
+	(fp_line
+		(start 23.92 4.12)
+		(end 23.92 1.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a12f3c3-d43b-48d7-a521-ffcb19b4a88b")
+	)
+	(fp_rect
+		(start -1.75 -4.25)
+		(end 27.15 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bbf8d54a-6ad0-4ac2-88f1-058c4ad6b854")
+	)
+	(fp_line
+		(start 3.9 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "150dfb27-3422-411c-90ed-b1a47c7df5c5")
+	)
+	(fp_line
+		(start 21.6 0)
+		(end 20 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b69b216-941a-42d6-9dcc-2c3a6adf0f1a")
+	)
+	(fp_rect
+		(start 1.6 -4)
+		(end 23.8 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6be0fb35-05f3-4f5c-9394-0629b996a7de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.7 0 0)
+		(layer "F.Fab")
+		(uuid "6633b425-8416-41ce-9ca6-169708115b61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.9 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a32d17d7-0d0f-44cd-8b45-6d003bf64098")
+	)
+	(pad "2" thru_hole circle
+		(at 9 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b7f4911-8515-4845-afba-85894d9b91e8")
+	)
+	(pad "3" thru_hole circle
+		(at 17 0)
+		(size 3.050926 3.050926)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c02eef4-f886-4ed7-80ac-3883dc904f92")
+	)
+	(pad "4" thru_hole circle
+		(at 21.6 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "099bafaf-b074-45b2-b7ad-8a2af7b8dd00")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
