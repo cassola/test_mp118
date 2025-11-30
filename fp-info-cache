@@ -1,4 +1,4 @@
-26792099424659756
+26723650304553345
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70574,6 +70574,20 @@ Yellow 5381 Series LED
 2
 2
 Library
+MP118
+
+
+0
+34
+34
+Library
+PhoenixContact_SPT_5_7-H-7.5-ZB_1x07_P7.5mm_Horizontal
+Connector Phoenix Contact, SPT 5/7-H-7.5-ZB Terminal Block, 1719244 (https://www.phoenixcontact.com/online/portal/gb/?uri=pxc-oc-itemdetail:pid=1719244), generated with kicad-footprint-generator
+Connector Phoenix Contact SPT 5/7-H-7.5-ZB 1719244
+0
+21
+7
+Library
 Shunt PBV Isabellenhutte 17,78x7,62
 Resistor, Axial_Shunt series, Box, pin pitch=25.4mm, 3W, length*width*height=22.2*8*8mm^3, shunt pin pitch = 14.30mm, http://www.vishay.com/docs/30217/cpsl.pdf
 Resistor Axial_Shunt series Box pin pitch 25.4mm 3W length 22.2mm width 8mm height 8mm shunt pin pitch 14.30mm
@@ -92483,223 +92497,6 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
-Panelization
-BreakLine_1h_D0.5mm_P0.85mm
-Break line, 1 hole/ 0.85mm
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-BreakLine_2h_D0.5mm_P0.85mm
-Break line, 2 holes/ 1.7mm
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-BreakLine_2h_D0.5mm_P1.7mm
-Break line, 3 holes/ 2.5mm, room for traces
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-BreakLine_3h_D0.5mm_P0.85mm
-Break line, 3 holes/ 2.5mm
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-BreakLine_3h_D0.5mm_P1.7mm
-Break line, 3 holes/ 4.2mm, room for traces
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-BreakLine_5h_D0.5mm_P0.85mm
-Break line, 5 holes/ 4.2mm
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-BreakLine_7h_D0.5mm_P0.85mm
-Break line, 7 holes/ 6mm
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-BreakLine_9h_D0.5mm_P0.85mm
-Break line, 9 holes/ 7.6mm
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-BreakLine_11h_D0.5mm_P0.85mm
-Break line, 11 holes/ 9.3mm
-mousebite break line edge stamp
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x2.0mm_0h
-Break slot 2mm part, small: L=2mm, no holes: outer tab
-mousebite stamp slot break tab 2mm edge
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x2.0mm_inset_D0.5mm_P0.85mm_4h_Trace
-Break slot 2mm part, small: L=2mm, holes inset: recommended (no post-process), room for traces
-mousebite stamp slot break tab 2mm edge inset
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x2.0mm_inset_D0.5mm_P0.85mm_5h
-Break slot 2mm part, small: L=2mm, holes inset: recommended (no post-process)
-mousebite stamp slot break tab 2mm edge inset
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x2.0mm_outset_D0.5mm_P0.85mm_2h_Trace
-Break slot 2mm part, small: L=2mm, holes outset (sand flat with edge), room for traces
-mousebite stamp slot break tab 2mm edge outset
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h
-Break slot 2mm part, small: L=2mm, holes outset (sand flat with edge)
-mousebite stamp slot break tab 2mm edge outset
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x4.5mm_0h
-Break slot 2mm part, standard: L=4.5mm, no holes: outer tab
-mousebite stamp slot break tab 2mm edge
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x4.5mm_inset_D0.5mm_P0.85mm_5h_Trace
-Break slot 2mm part, standard: L=4.5mm, holes inset: recommended (no post-process), room for traces
-mousebite stamp slot break tab 2mm edge inset
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x4.5mm_inset_D0.5mm_P0.85mm_7h
-Break slot 2mm part, standard: L=4.5mm, holes inset: recommended (no post-process)
-mousebite stamp slot break tab 2mm edge inset
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x4.5mm_outset_D0.5mm_P0.85mm_5h_Trace
-Break slot 2mm part, standard: L=4.5mm, holes outset (sand flat with edge), room for traces
-mousebite stamp slot break tab 2mm edge outset
-0
-0
-0
-Panelization
-MouseBite-Part_2.0x4.5mm_outset_D0.5mm_P0.85mm_7h
-Break slot 2mm part, standard: L=4.5mm, holes outset (sand flat with edge)
-mousebite stamp slot break tab 2mm edge outset
-0
-0
-0
-Panelization
-MouseBite-Slot-Jumper_0201
-Jumper for Mouse slot. SMD 0201 (0603 Metric)
-mousebite resistor jumper
-0
-2
-2
-Panelization
-MouseBite-Slot-Jumper_01005
-Jumper for Mouse slot. SMD 01005 (0402 Metric)
-mousebite resistor jumper
-0
-2
-2
-Panelization
-MouseBite-Slot_2.0x2.0mm_inset_D0.5mm_P0.85mm_4h_Trace
-Break slot 2mm, small: L=2mm, holes inset: recommended (no post-process), room for traces
-mousebite stamp slot break tab 2mm edge inset
-0
-0
-0
-Panelization
-MouseBite-Slot_2.0x2.0mm_inset_D0.5mm_P0.85mm_5h
-Break slot 2mm, small: L=2mm, holes inset: recommended (no post-process)
-mousebite stamp slot break tab 2mm edge inset
-0
-0
-0
-Panelization
-MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_2h_Trace
-Break slot 2mm, small: L=2mm, holes outset (sand flat with edge), room for traces
-mousebite stamp slot break tab 2mm edge outset
-0
-0
-0
-Panelization
-MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h
-Break slot 2mm, small: L=2mm, holes outset (sand flat with edge)
-mousebite stamp slot break tab 2mm edge outset
-0
-0
-0
-Panelization
-MouseBite-Slot_2.0x4.5mm_inset_D0.5mm_P0.85mm_5h_Trace
-Break slot 2mm, standard: L=4.5mm, holes inset: recommended (no post-process), room for traces
-mousebite stamp slot break tab 2mm edge inset
-0
-0
-0
-Panelization
-MouseBite-Slot_2.0x4.5mm_inset_D0.5mm_P0.85mm_7h
-Break slot 2mm, standard: L=4.5mm, holes inset: recommended (no post-process)
-mousebite stamp slot break tab 2mm edge inset
-0
-0
-0
-Panelization
-MouseBite-Slot_2.0x4.5mm_outset_D0.5mm_P0.85mm_5h_Trace
-Break slot 2mm, standard: L=4.5mm, holes outset (sand flat with edge), room for traces
-mousebite stamp slot break tab 2mm edge outset
-0
-0
-0
-Panelization
-MouseBite-Slot_2.0x4.5mm_outset_D0.5mm_P0.85mm_7h
-Break slot 2mm, standard: L=4.5mm, holes outset (sand flat with edge)
-mousebite stamp slot break tab 2mm edge outset
-0
-0
-0
-Panelization
-MouseBite-Slot_2.54x2.54mm_on-edge_D0.5mm_P0.85mm_4h_Trace
-Break slot 2.54mm, small: L=2.54mm, holes on-edge: acceptable, room for traces
-mousebite stamp slot break tab 2mm edge on-edge
-0
-0
-0
-Panelization
-MouseBite-Slot_2.54x5.08mm_on-edge_D0.5mm_P0.85mm_5h_Trace
-Break slot 2.54mm, standard: L=5.08mm, holes on-edge: acceptable, room for traces
-mousebite stamp slot break tab 2mm edge on-edge
-0
-0
-0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf

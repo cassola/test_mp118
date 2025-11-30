@@ -1,0 +1,11 @@
+| Categoría       | Capas                | Función                                    |
+| --------------- | -------------------- | ------------------------------------------ |
+| **Cobre**       | F.Cu / InX.Cu / B.Cu | Pistas y pads                              |
+| **Serigrafía**  | F.SilkS / B.SilkS    | Texto, referencias, contornos visibles     |
+| **Máscara**     | F.Mask / B.Mask      | Abrir zonas sin máscara para soldadura     |
+| **Pasta**       | F.Paste / B.Paste    | Stencil para pasta de soldar               |
+| **Fabricación** | F.Fab / B.Fab        | Contorno real del componente               |
+| **Courtyard**   | F.CrtYd / B.CrtYd    | Área de seguridad para colocar componentes |
+| **Comentarios** | Cmts, ECO, Adhes     | Información adicional                      |
+| **Mecánicas**   | Edge.Cuts / Margin   | Contorno y requisitos físicos              |
+
