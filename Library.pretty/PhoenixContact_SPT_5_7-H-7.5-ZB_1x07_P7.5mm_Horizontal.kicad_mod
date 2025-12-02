@@ -612,10 +612,6 @@
 		(roundrect_rratio 0.15)
 		(uuid "01939722-b11a-48ea-8c6a-aab6c70ccf44")
 	)
-	(group ""
-		(uuid "68e0c547-d60c-456a-b914-4a6a3e1735e7")
-		(members "e1038c5d-7087-4e28-8955-3d2b42c1eb45")
-	)
 	(embedded_fonts no)
 	(embedded_files
 		(file
@@ -3720,6 +3716,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "/home/manu/Descargas/pxc_1119816_04_00_LPT-16-7-10-0-ZB_3D.stp"
+		(offset
+			(xyz -5 -25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
 		)
 	)
 )
