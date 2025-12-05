@@ -13,25 +13,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J4"
-				(at 0 11.43 0)
+			(property "Reference" "J"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Conn_01x07_Socket"
-				(at -5.08 -11.43 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Library:PhoenixContact_SPT_5_7-H-7.5-ZB_1x07_P7.5mm_Horizontal"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -256,14 +254,14 @@
 				(pin passive line
 					(at -5.08 7.62 0)
 					(length 3.81)
-					(name "Pin_7"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -274,14 +272,14 @@
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "Pin_6"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -292,14 +290,14 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "Pin_5"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -328,14 +326,14 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_3"
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -346,14 +344,14 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -364,14 +362,14 @@
 				(pin passive line
 					(at -5.08 -7.62 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11574,6 +11572,239 @@
 				)
 			)
 		)
+		(symbol "SW_MEC_5E_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PB1"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:SW_PUSH-12mm"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5E single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Proveedor" "RS: 443-676 RS: 378-6763"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Precio" "4,14 €"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5E_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_MEC_5E"
 			(pin_names
 				(offset 1.016)
@@ -11969,6 +12200,12 @@
 		(uuid "028c1113-eb64-465c-a75e-7c156973efd6")
 	)
 	(junction
+		(at 153.67 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17e20294-0d91-4864-b514-ae01310b2de2")
+	)
+	(junction
 		(at 81.28 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12047,6 +12284,12 @@
 		(uuid "754c62db-dff5-4464-9663-5ceed4ad5225")
 	)
 	(junction
+		(at 171.45 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "790c3fa6-9939-426a-a6f3-e0fa61163e10")
+	)
+	(junction
 		(at 146.05 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12107,6 +12350,12 @@
 		(uuid "bdb0ff49-801e-45ff-b4b1-ec29d0b6d596")
 	)
 	(junction
+		(at 181.61 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd178c60-20b7-4056-8375-583f4280b9d8")
+	)
+	(junction
 		(at 85.09 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12117,6 +12366,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2db45e0-feb9-4b1e-960c-d5bf8eaf581b")
+	)
+	(junction
+		(at 163.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e651b38d-0703-423b-af5c-8c0399ef6d04")
 	)
 	(junction
 		(at 142.24 139.7)
@@ -12135,6 +12390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f38df2ee-f0ae-464e-b011-d5e5b1dc52b7")
+	)
+	(junction
+		(at 142.24 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7dc797c-e119-4e7a-b0f8-7a07256d907e")
 	)
 	(wire
 		(pts
@@ -12345,6 +12606,16 @@
 			(type default)
 		)
 		(uuid "39348ce5-e3a1-49ad-8f51-a8c64c9d6aad")
+	)
+	(wire
+		(pts
+			(xy 142.24 115.57) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e437194-2c19-4d70-8402-6c026dd3a7e3")
 	)
 	(wire
 		(pts
@@ -12678,6 +12949,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 113.03) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80621a1d-9dbb-4c74-a5f3-c87cc73188dc")
+	)
+	(wire
+		(pts
 			(xy 148.59 92.71) (xy 148.59 104.14)
 		)
 		(stroke
@@ -12908,6 +13189,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 39.37) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67b6123-3b2e-4184-866a-a188db11b1cb")
+	)
+	(wire
+		(pts
 			(xy 138.43 71.12) (xy 138.43 62.23)
 		)
 		(stroke
@@ -12928,7 +13219,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 115.57) (xy 138.43 115.57)
+			(xy 189.23 115.57) (xy 142.24 115.57)
 		)
 		(stroke
 			(width 0)
@@ -12975,6 +13266,16 @@
 			(type default)
 		)
 		(uuid "ba945af1-0036-4e86-8c39-9145f46787e0")
+	)
+	(wire
+		(pts
+			(xy 181.61 39.37) (xy 181.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4c283d-0d9e-41c6-a80d-7fed72071011")
 	)
 	(wire
 		(pts
@@ -13138,6 +13439,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 113.03) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db87967a-6ab4-44cb-b752-fbbddd734d9a")
+	)
+	(wire
+		(pts
 			(xy 115.57 124.46) (xy 115.57 127)
 		)
 		(stroke
@@ -13238,6 +13549,26 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 39.37) (xy 153.67 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b867ec-2544-412d-a82d-115adf79f8f0")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 163.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7efe4b8-b666-4905-9874-a4fbf88a6043")
+	)
+	(wire
+		(pts
 			(xy 146.05 92.71) (xy 146.05 104.14)
 		)
 		(stroke
@@ -13285,6 +13616,16 @@
 			(justify left bottom)
 		)
 		(uuid "035f4975-6866-432b-93e1-4dc69dcf0435")
+	)
+	(label "OUT_0"
+		(at 151.13 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e677263-3789-4b25-9989-a82f6f1c82bb")
 	)
 	(label "+Vs"
 		(at 176.53 71.12 0)
@@ -13576,6 +13917,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 146.05 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "237b6d92-6c81-4bdd-92ca-a2ee8065d451")
+		(property "Reference" "R5"
+			(at 146.05 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 146.05 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 146.05 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" "RS:707-7666"
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precio" "1,31 €. 10 unidades"
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8398a198-0242-4cfe-897e-ed9b2f08038b")
+		)
+		(pin "2"
+			(uuid "cd05af5d-37e5-4632-9403-482e7b7dd6ed")
+		)
+		(instances
+			(project "test_MP118FD"
+				(path "/0ca9cec8-9e01-403d-ae88-5180092a6e53"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_MEC_5E_1")
 		(lib_id "Switch:SW_MEC_5E")
 		(at 158.75 41.91 0)
 		(unit 1)
@@ -14380,7 +14807,7 @@
 		(dnp no)
 		(uuid "98fcade4-72cf-4c78-8330-ce44c7c51bed")
 		(property "Reference" "J4"
-			(at 201.93 73.66 0)
+			(at 201.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3707,17 +3707,6 @@
 			(checksum "46AA2F93D9A71ADB07DD22A038E2563F")
 		)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Phoenix_SPT.3dshapes/PhoenixContact_SPT_5_7-H-7.5-ZB_1x07_P7.5mm_Horizontal.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "/home/manu/Descargas/pxc_1119816_04_00_LPT-16-7-10-0-ZB_3D.stp"
 		(offset
 			(xyz -5 -25 0)
